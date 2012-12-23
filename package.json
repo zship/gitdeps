@@ -1,0 +1,15 @@
+{
+	"name": "gitdeps",
+	"description": "(Experimental) git submodule manager",
+	"version": "0.1.0",
+	"author": "Zach Shipley <zach@zachshipley.com>",
+	"license": "MIT",
+	"bin": {
+		"gitdeps": "bin/gitdeps"
+	},
+	"engines": {
+		"node": ">= 0.6.0"
+	},
+	"preferGlobal": true,
+	"keywords": []
+}
