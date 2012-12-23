@@ -60,6 +60,7 @@ submodule update --init`.
 ```
 
 Running `gitdeps` in a git repository's root will:
+
 1. Remove submodules not referenced in .gitdeps
 2. Add submodules referenced in .gitdeps but not existing in the repository
 3. Update all submodules' HEADs to point to the "commit" specified in .gitdeps
